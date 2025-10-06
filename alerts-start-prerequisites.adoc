@@ -16,24 +16,24 @@ Inizia a utilizzare gli avvisi ONTAP verificando la prontezza del tuo ambiente o
 
 Per visualizzare gli avvisi ONTAP , sono necessari i seguenti prerequisiti:
 
-* ONTAP 9.10 e versioni successive.  Il sistema locale deve essere individuato nella pagina Sistemi della console NetApp .
+* ONTAP 9.10 e versioni successive.  Il sistema locale deve essere individuato nella pagina Sistemi NetApp Console .
 +
 ** Autorizzazioni ONTAP dell'amministratore del cluster
 +
-Non è necessario inserire la licenza nel portafoglio digitale della console NetApp .
+Non è necessario inserire la licenza nel portafoglio digitale NetApp Console .
 
 
 
-* Nella console NetApp :
+* Nella NetApp Console:
 +
 ** Un sistema NetApp Console con storage NAS o SAN NetApp in sede
-** È necessario configurare un agente Console per una regione locale in NetApp Console. Fare riferimento a https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentazione della console NetApp per configurare l'agente della console"^] .
+** Un agente Console per una regione locale deve essere configurato in NetApp Console. Fare riferimento a https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentazione NetApp Console per configurare l'agente della console"^] .
 +
 Se un cluster viene rimosso dall'agente Console, gli avvisi relativi a tale cluster rimangono per 90 giorni.  Inoltre, se si modifica l'agente della console, gli avvisi rimangono associati al cluster e all'agente originali per 90 giorni.  Se torni all'agente originale, vedrai di nuovo quegli avvisi.
 
-** Un'organizzazione NetApp Console con almeno un agente Console attivo che si connette ai cluster ONTAP locali.  Tutte le sorgenti e i sistemi devono trovarsi nella stessa organizzazione NetApp Console.
-** Un utente della console NetApp in quell'organizzazione con privilegi di amministratore dell'organizzazione per l'individuazione delle risorse
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti standard della console NetApp"^]
+** Un'organizzazione NetApp Console con almeno un agente Console attivo che si connette ai cluster ONTAP locali.  Tutte le sorgenti e i sistemi devono trovarsi nella stessa organizzazione NetApp Console .
+** Un utente NetApp Console in quell'organizzazione con privilegi di amministratore dell'organizzazione per l'individuazione delle risorse
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti standard NetApp Console"^]
 
 
 

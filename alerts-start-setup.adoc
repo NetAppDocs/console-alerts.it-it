@@ -16,7 +16,7 @@ Per utilizzare gli avvisi ONTAP , è necessario eseguire alcuni passaggi per con
 
 Prima di iniziare, rivederelink:alerts-start-prerequisites.html["prerequisiti"] per garantire che il tuo ambiente sia pronto.
 
-Revisione https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["requisiti standard della console NetApp"^] .
+Revisione https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["requisiti standard NetApp Console"^] .
 
 
 
@@ -26,10 +26,10 @@ Per visualizzare gli avvisi, l'utente connesso deve far parte dell'organizzazion
 
 
 
-== Creare l'agente Console
+== Creare l'agente della console
 
 Dovresti contattare il tuo rappresentante commerciale NetApp per provare o utilizzare gli avvisi ONTAP .  Quindi, quando si utilizza l'agente Console, questo includerà le funzionalità appropriate per gli avvisi ONTAP .
 
-Per creare l'agente Console nella console NetApp , fare riferimento alla documentazione BlueXP che descrive https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["come creare un agente Console"^] .
+Per creare l'agente Console nella NetApp Console, fare riferimento alla documentazione BlueXP che descrive https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["come creare un agente Console"^] .
 
 Dopo aver configurato l'agente Console e aggiunto il sistema, attendere circa 15 minuti per il rilevamento iniziale.

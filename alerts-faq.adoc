@@ -18,25 +18,25 @@ Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una doma
 
 == Accesso agli avvisi NetApp
 
-*Qual è l'URL degli avvisi NetApp ?*  Per l'URL, in un browser, inserisci: https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla console NetApp .
+*Qual è l'URL degli avvisi NetApp ?*  Per l'URL, in un browser, inserisci: https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla NetApp Console.
 
 *È necessaria una licenza per utilizzare gli avvisi NetApp ?*
 
-Per utilizzare gli avvisi NetApp è necessaria una licenza NetApp ONTAP 9.10 o successiva.  Non è necessario inserire la licenza nel portafoglio digitale della console NetApp .
+Per utilizzare gli avvisi NetApp è necessaria una licenza NetApp ONTAP 9.10 o successiva.  Non è necessario inserire la licenza nel portafoglio digitale NetApp Console .
 
 Non è necessario disporre di una licenza di prova per gli avvisi NetApp .
 
-*Come si abilitano gli avvisi NetApp ?*  Gli avvisi NetApp non richiedono alcuna abilitazione.  L'opzione avvisi viene abilitata automaticamente nel menu di navigazione sinistro della console NetApp .
+*Come si abilitano gli avvisi NetApp ?*  Gli avvisi NetApp non richiedono alcuna abilitazione.  L'opzione avvisi viene abilitata automaticamente nel menu di navigazione sinistro della NetApp Console .
 
 Per iniziare, quando si utilizza l'agente Console, questo includerà le funzionalità appropriate per gli avvisi NetApp .
 
-**Gli avvisi NetApp sono disponibili in modalità standard, limitata e privata?**  Gli avvisi NetApp possono essere distribuiti solo nella console NetApp standard (pubblica).
+**Gli avvisi NetApp sono disponibili in modalità standard, limitata e privata?**  Gli avvisi NetApp possono essere distribuiti solo nella NetApp Console standard (pubblica).
 
-Per una spiegazione su queste modalità in tutti i servizi NetApp Console, fare riferimento a https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modalità di distribuzione della console NetApp"^] .
+Per una spiegazione su queste modalità in tutti i servizi NetApp Console , fare riferimento a https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modalità di distribuzione NetApp Console"^] .
 
 **Come vengono gestiti i permessi di accesso?**  Solo gli amministratori dell'organizzazione NetApp Console hanno la possibilità di avviare avvisi NetApp e di individuare carichi di lavoro (perché ciò implica l'impegno nell'utilizzo di una risorsa).
 
-Gli avvisi vengono mostrati agli utenti registrati in base al loro accesso alle risorse del cluster nell'organizzazione NetApp Console.
+Gli avvisi vengono mostrati agli utenti registrati in base al loro accesso alle risorse del cluster nell'organizzazione NetApp Console .
 
 
 

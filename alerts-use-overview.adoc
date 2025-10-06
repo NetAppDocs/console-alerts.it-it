@@ -14,6 +14,6 @@ summary: Utilizzando gli avvisi NetApp , è possibile visualizzare lo stato di i
 [role="lead"]
 Visualizza i problemi di archiviazione e visualizza i dettagli con collegamenti diretti a ONTAP System Manager.
 
-* link:alerts-use-dashboard.html["Visualizza i problemi di archiviazione o i potenziali rischi dalla pagina dell'elenco degli avvisi"] .
+* link:alerts-use-dashboard.html["Visualizza i problemi di archiviazione o i potenziali rischi dalla pagina dell'elenco Avvisi"] .
 * link:alerts-use-alerts.html["Visualizza i dettagli degli avvisi collegati in ONTAP System Manager"] .
 

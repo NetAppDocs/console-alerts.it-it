@@ -30,7 +30,7 @@ La gravità dell'intervento EMS viene mappata sulla gravità degli avvisi ONTAP 
 
 [cols="40,40"]
 |===
-| Gravità dell'allerta EMS: | Gravità dell'avviso della console NetApp : 
+| Gravità dell'allerta EMS: | Gravità dell'avviso NetApp Console : 
 
 
 | allerta o emergenza | critico 
@@ -146,7 +146,7 @@ Per i dettagli sugli avvisi ONTAP , fare riferimento alla documentazione ONTAP e
 == Visualizza i problemi di archiviazione ONTAP
 
 .Passi
-. link:alerts-start-login.html["Accedi alla console NetApp"] .
+. link:alerts-start-login.html["Accedi alla NetApp Console"] .
 . Dalla barra di navigazione sinistra della Console, seleziona *Archiviazione* > *Avvisi*.
 +
 Dopo l'individuazione, la pagina Elenco avvisi mostra un elenco di avvisi nel sistema ONTAP .
