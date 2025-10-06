@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
+summary: Scopri le novità sugli avvisi ONTAP . 
+---
+= Novità sugli avvisi ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Scopri le novità sugli avvisi ONTAP .
+
+
+
+== 06 ottobre 2025
+
+
+
+=== Gli BlueXP alerts ora sono avvisi ONTAP
+
+Gli BlueXP alerts sono stati rinominati avvisi ONTAP .
+
+È possibile accedervi dalla barra di navigazione sinistra della console NetApp selezionando *Archiviazione* > *Avvisi*.
+
+
+
+=== BlueXP è ora NetApp Console
+
+NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
+
+Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione della console NetApp"] .
+
+
+
+== 07 ottobre 2024
+
+
+
+=== Pagina dell'elenco BlueXP alerts
+
+È possibile identificare rapidamente i cluster ONTAP con capacità o prestazioni ridotte, valutare il livello di disponibilità e identificare i rischi per la sicurezza.  È possibile visualizzare gli avvisi relativi a capacità, prestazioni, protezione, disponibilità, sicurezza e configurazione.
+
+
+
+=== Dettagli degli avvisi
+
+È possibile approfondire i dettagli degli avvisi e trovare suggerimenti.
+
+
+
+=== Visualizza i dettagli del cluster collegati a ONTAP System Manager
+
+Con gli BlueXP alerts puoi visualizzare gli avvisi associati al tuo ambiente di archiviazione ONTAP e approfondire i dettagli collegati a ONTAP System Manager.
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Scopri di più sugli BlueXP alerts"] .

@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-alerts.html 
+keywords: alerts, ontap, netapp, system manager, bluexp 
+summary: Con gli avvisi NetApp puoi visualizzare gli avvisi associati al tuo sistema di storage ONTAP e approfondire i dettagli collegati a ONTAP System Manager. 
+---
+= Visualizza i dettagli degli avvisi nel tuo sistema di archiviazione ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Visualizza gli avvisi associati al tuo sistema di archiviazione ONTAP e approfondisci i dettagli.
+
+
+
+== Visualizza i dettagli dell'avviso
+
+. link:alerts-start-login.html["Accedi alla console NetApp"] .
+. Dalla barra di navigazione sinistra della Console, seleziona *Archiviazione* > *Avvisi*.
+. Dalla pagina Elenco avvisi, seleziona un avviso.
++
+image:alerts-detail.png["Dettagli dell'avviso"]
+
+. Scorri verso il basso per trovare le azioni correttive suggerite.
+. Scorri verso il basso per trovare altri avvisi correlati all'oggetto per cui è stato generato l'avviso.
+
+
+
+
+== Visualizza i dettagli sul cluster in ONTAP System Manager
+
+. Dalla pagina Elenco avvisi, seleziona un avviso.
+. Dall'avviso, seleziona il nome del cluster nella parte superiore della pagina.
++
+ONTAP System Manager ora mostra informazioni sul cluster.
+
+

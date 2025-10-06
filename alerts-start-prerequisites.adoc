@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts 
+summary: 'Inizia a utilizzare gli avvisi ONTAP verificando il supporto per il tuo ambiente, l"accesso alla rete, l"accesso e il browser web.' 
+---
+= Prerequisiti per gli avvisi ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+Inizia a utilizzare gli avvisi ONTAP verificando la prontezza del tuo ambiente operativo.
+
+Per visualizzare gli avvisi ONTAP , sono necessari i seguenti prerequisiti:
+
+* ONTAP 9.10 e versioni successive.  Il sistema locale deve essere individuato nella pagina Sistemi della console NetApp .
++
+** Autorizzazioni ONTAP dell'amministratore del cluster
++
+Non è necessario inserire la licenza nel portafoglio digitale della console NetApp .
+
+
+
+* Nella console NetApp :
++
+** Un sistema NetApp Console con storage NAS o SAN NetApp in sede
+** È necessario configurare un agente Console per una regione locale in NetApp Console. Fare riferimento a https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentazione della console NetApp per configurare l'agente della console"^] .
++
+Se un cluster viene rimosso dall'agente Console, gli avvisi relativi a tale cluster rimangono per 90 giorni.  Inoltre, se si modifica l'agente della console, gli avvisi rimangono associati al cluster e all'agente originali per 90 giorni.  Se torni all'agente originale, vedrai di nuovo quegli avvisi.
+
+** Un'organizzazione NetApp Console con almeno un agente Console attivo che si connette ai cluster ONTAP locali.  Tutte le sorgenti e i sistemi devono trovarsi nella stessa organizzazione NetApp Console.
+** Un utente della console NetApp in quell'organizzazione con privilegi di amministratore dell'organizzazione per l'individuazione delle risorse
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti standard della console NetApp"^]
+
+
+

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-login.html 
+keywords: NetApp Console login, log in, ontap, netapp 
+summary: Per iniziare a utilizzare gli avvisi ONTAP , accedi agli avvisi ONTAP nella console NetApp . 
+---
+= Accedi agli avvisi ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Per visualizzare gli avvisi ONTAP è possibile utilizzare la console NetApp .
+
+Per accedere alla console NetApp , puoi utilizzare le credenziali del sito di supporto NetApp oppure registrarti per un accesso cloud NetApp utilizzando il tuo indirizzo email e una password. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Scopri di più sull'accesso"^] .
+
+.Passi
+. Apri un browser web e vai su https://console.netapp.com/["Console NetApp"^] .
++
+Viene visualizzata la pagina di accesso alla console.
+
+. Accedi alla Console.
+. Dalla barra di navigazione sinistra della Console, seleziona *Archiviazione* > *Avvisi*.
++
+Viene visualizzata la pagina con l'elenco degli avvisi.
+
++
+image:alerts-dashboard.png["Pagina dell'elenco degli avvisi ONTAP"]
+
+

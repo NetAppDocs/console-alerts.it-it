@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-quick-start.html 
+keywords: how to get started with bluexp alerts, alerts quick start, netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
+summary: Inizia a utilizzare gli avvisi ONTAP in pochi passaggi. 
+---
+= Avvio rapido per gli avvisi ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Ecco una panoramica dei passaggi necessari per iniziare a utilizzare gli avvisi ONTAP .  I link presenti in ogni passaggio ti conducono a una pagina che fornisce maggiori dettagli.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"]Rivedere i prerequisiti
+[role="quick-margin-para"]
+link:alerts-start-prerequisites.html["Assicurati che il tuo ambiente soddisfi questi requisiti"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"]Imposta gli avvisi ONTAP
+[role="quick-margin-para"]
+link:alerts-start-setup.html["Configurare un agente Console in NetApp Console"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tre"]Cosa succederà adesso?
+[role="quick-margin-para"]
+Ecco cosa puoi fare dopo aver impostato gli avvisi ONTAP .
+
+[role="quick-margin-list"]
+* link:alerts-use-dashboard.html["Visualizza i problemi di archiviazione e i potenziali rischi nella pagina dell'elenco degli avvisi"] .
+* link:alerts-use-alerts.html["Visualizza i dettagli dell'avviso in ONTAP System Manager"] .
+

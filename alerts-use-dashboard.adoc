@@ -1,0 +1,175 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: Ottieni informazioni immediate sullo stato di salute del tuo ambiente ONTAP .  È possibile identificare rapidamente i cluster ONTAP con capacità o prestazioni ridotte, valutare il grado di disponibilità, determinare la disponibilità e identificare i rischi per la sicurezza. 
+---
+= Visualizza i potenziali rischi nell'archiviazione ONTAP utilizzando la pagina dell'elenco Avvisi
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Visualizza in un colpo d'occhio le informazioni sui potenziali rischi del tuo sistema ONTAP .  È possibile identificare rapidamente i cluster ONTAP con capacità o prestazioni ridotte, valutare il grado di disponibilità, determinare la disponibilità e identificare i rischi per la sicurezza.
+
+Puoi visualizzare informazioni su queste gravità e aree di impatto:
+
+* *Gravità*: Critico, Avvertenza, Informativo
+* *Aree di impatto*: Capacità, Prestazioni, Disponibilità, Protezione, Sicurezza, Configurazione
+
+
+
+
+== Avvisi che potresti vedere
+
+Ecco alcuni degli avvisi visualizzati.
+
+La gravità dell'intervento EMS viene mappata sulla gravità degli avvisi ONTAP nei seguenti modi:
+
+[cols="40,40"]
+|===
+| Gravità dell'allerta EMS: | Gravità dell'avviso della console NetApp : 
+
+
+| allerta o emergenza | critico 
+
+
+| errore | Nessuno 
+
+
+| Basso | avvertimento 
+
+
+| avviso | informativo 
+
+
+| informativo | informativo 
+|===
+.Elenco degli avvisi
+[%collapsible]
+====
+Avvisi di gravità critica:
+
+* Lo stato aggregato non è online
+* guasto del disco
+* Il tempo di ritardo SnapMirror è elevato
+* Stato del volume offline
+* Violazione percentuale del volume utilizzato
+
+
+Avvisi EMS:
+
+* Server antivirus occupato
+* Credenziali AWS non inizializzate
+* Livello cloud non raggiungibile
+* Disco fuori servizio
+* Scoperto l'alimentatore del ripiano del disco
+* Ripiani del disco con alimentazione rimossa
+* Completata la risincronizzazione della replica mirror FabricPool
+* Limite di utilizzo dello spazio FabricPool quasi raggiunto
+* Limite di utilizzo dello spazio FabricPool raggiunto
+* Comandi della porta di destinazione FC superati
+* Restituzione del pool di archiviazione non riuscita
+* Interconnessione HA inattiva
+* LUN distrutto
+* LUN offline
+* Ventola dell'unità principale guasta
+* Ventola dell'unità principale in stato di avviso
+* Numero massimo di sessioni per utente superato
+* Numero massimo di aperture per file superato
+* Commutazione automatica non pianificata MetroCluster disabilitata
+* Monitoraggio MetroCluster
+* Conflitto di nomi NetBIOS
+* Pool di pazienti con NFSv4 esaurito
+* Panico del nodo
+* Spazio del volume radice del nodo basso
+* Condivisione amministratore inesistente
+* Server antivirus non reattivo
+* Nessun motore di scansione registrato
+* Nessuna connessione Vscan
+* Namespace NVMe distrutto
+* Spazio dei nomi NVMe offline
+* Spazio dei nomi NVMe online
+* Periodo di grazia della licenza NVMe-oF attivo
+* Periodo di grazia della licenza NVMe-oF scaduto
+* Inizio del periodo di grazia della licenza NVMe-oF
+* Batteria NVRAM scarica
+* Host dell'archivio oggetti non risolvibile
+* Archivio oggetti Intercluster LIF inattivo
+* Mancata corrispondenza della firma dell'archivio oggetti
+* Memoria del monitor QoS esaurita
+* Rilevata attività ransomware
+* Trasferimento del pool di archiviazione non riuscito
+* Aggiunto mediatore ONTAP
+* Mediatore ONTAP non accessibile
+* Mediatore ONTAP irraggiungibile
+* Rimosso il mediatore ONTAP
+* Timeout READDIR
+* Stato SAN "attivo-attivo" modificato
+* Heartbeat del processore di servizio perso
+* Heartbeat del processore di servizio arrestato
+* Processore di servizio offline
+* Processore di servizio non configurato
+* Copia shadow non riuscita
+* SFP nell'adattatore di destinazione FC che riceve bassa potenza
+* SFP nell'adattatore di destinazione FC che trasmette bassa potenza
+* Ventilatore dello scaffale guasto
+* Certificato CA SMBC scaduto
+* Certificato CA SMBC in scadenza
+* Certificato client SMBC scaduto
+* Certificato client SMBC in scadenza
+* Relazione SMBC non sincronizzata
+* Certificato del server SMBC scaduto
+* Certificato del server SMBC in scadenza
+* Relazione SnapMirror non sincronizzata
+* Alimentatori dell'interruttore di archiviazione guasti
+* Monitoraggio anti-ransomware delle VM di archiviazione
+* Arresto della VM di archiviazione riuscito
+* Il sistema non può funzionare a causa di un guasto della ventola dell'unità principale
+* Troppe autenticazioni CIFS
+* Dischi non assegnati
+* Accesso utente non autorizzato alla condivisione amministratore
+* Virus rilevato
+* Monitoraggio anti-ransomware del volume
+* Ridimensionamento automatico del volume riuscito
+* Volume offline
+* Volume limitato
+
+
+====
+Per i dettagli sugli avvisi ONTAP , fare riferimento alla documentazione ONTAP e alle informazioni su ONTAP System Manager all'indirizzo https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["Approfondimenti di ONTAP System Manager su problemi di capacità, sicurezza e configurazione"^] .
+
+
+
+== Visualizza i problemi di archiviazione ONTAP
+
+.Passi
+. link:alerts-start-login.html["Accedi alla console NetApp"] .
+. Dalla barra di navigazione sinistra della Console, seleziona *Archiviazione* > *Avvisi*.
++
+Dopo l'individuazione, la pagina Elenco avvisi mostra un elenco di avvisi nel sistema ONTAP .
+
++
+Potrebbe verificarsi un ritardo tra il verificarsi di un evento e la sua visualizzazione da parte degli avvisi ONTAP .
+
+. Dalla pagina Elenco avvisi, puoi visualizzare ed eseguire una delle seguenti operazioni:
++
+** Per modificare l'ordinamento, selezionare la freccia su o giù per una colonna.
+** Modifica il filtro nelle colonne per visualizzare solo le informazioni desiderate.
++
+
+TIP: Ad esempio, potresti voler visualizzare solo gli avvisi relativi alla capacità.  Per farlo, seleziona l'icona del filtro nella colonna Area di impatto, seleziona *Capacità* e seleziona *Applica*.
+
++
+image:alerts-dashboard-capacity-filter.png["Pagina degli avvisi che mostra i filtri dell'area di impatto"]
+
+** Scarica un file CSV contenente le informazioni sugli avvisi.
++
+Puoi scaricare fino a 1000 avvisi.  Il file include dati basati sui filtri impostati.
+
+** Seleziona un avviso e scopri i dettagli dell'avviso su quel cluster. Vedere link:alerts-use-alerts.html["Visualizza i dettagli dell'avviso"] .
+
+
+
