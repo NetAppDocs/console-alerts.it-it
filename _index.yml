@@ -4,7 +4,7 @@ indexpage:
   summary: Visualizza i problemi o i potenziali rischi nel tuo ambiente NetApp ONTAP
     .  È possibile approfondire i dettagli degli avvisi e visualizzare le informazioni
     sul cluster utilizzando ONTAP System Manager.
-  keywords: bluexp, ONTAP, alerts, system manager
+  keywords: NetApp Console, ONTAP, alerts, system manager, bluexp
   lead: Visualizza i problemi o i potenziali rischi nel tuo ambiente NetApp ONTAP
     in relazione a capacità, prestazioni, protezione, disponibilità e sicurezza.  È
     possibile approfondire i dettagli degli avvisi e visualizzare le informazioni
