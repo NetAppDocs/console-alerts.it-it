@@ -4,18 +4,21 @@
 
 
 
+[[bluexp-alerts-list-page]]
 === Pagina dell'elenco BlueXP alerts
 
 È possibile identificare rapidamente i cluster ONTAP con capacità o prestazioni ridotte, valutare il livello di disponibilità e identificare i rischi per la sicurezza.  È possibile visualizzare gli avvisi relativi a capacità, prestazioni, protezione, disponibilità, sicurezza e configurazione.
 
 
 
+[[alerts-details]]
 === Dettagli degli avvisi
 
 È possibile approfondire i dettagli degli avvisi e trovare suggerimenti.
 
 
 
+[[view-cluster-details-linked-to-ontap-system-manager]]
 === Visualizza i dettagli del cluster collegati a ONTAP System Manager
 
 Con gli BlueXP alerts puoi visualizzare gli avvisi associati al tuo ambiente di archiviazione ONTAP e approfondire i dettagli collegati a ONTAP System Manager.

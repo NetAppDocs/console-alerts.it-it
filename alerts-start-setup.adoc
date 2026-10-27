@@ -4,7 +4,7 @@ permalink: alerts-start-setup.html
 keywords: bluexp, alerts, ontap, netapp 
 summary: Per visualizzare gli avvisi ONTAP , è necessario eseguire alcuni passaggi per configurarlo. 
 ---
-= Imposta gli avvisi ONTAP
+= Configura gli avvisi ONTAP in NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -20,12 +20,14 @@ Revisione https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-chec
 
 
 
+[[access-to-cluster-resources]]
 == Accesso alle risorse del cluster
 
 Per visualizzare gli avvisi, l'utente connesso deve far parte dell'organizzazione NetApp Console e deve disporre dell'accesso richiesto alla risorsa del cluster.
 
 
 
+[[create-the-console-agent]]
 == Creare l'agente della console
 
 Dovresti contattare il tuo rappresentante commerciale NetApp per provare o utilizzare gli avvisi ONTAP .  Quindi, quando si utilizza l'agente Console, questo includerà le funzionalità appropriate per gli avvisi ONTAP .

@@ -4,7 +4,7 @@ permalink: concept-alerts.html
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts 
 summary: Visualizza i problemi o i potenziali rischi nel tuo ambiente NetApp ONTAP in relazione a capacità, prestazioni, disponibilità e sicurezza.  È possibile approfondire i dettagli utilizzando ONTAP System Manager. 
 ---
-= Scopri di più sugli avvisi ONTAP
+= Scopri gli avvisi di ONTAP in NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,18 +18,20 @@ Visualizza i problemi o i potenziali rischi nei tuoi sistemi ONTAP locali NetApp
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 Visualizza gli avvisi ONTAP nella NetApp Console.
 
 NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale.  La console è necessaria per accedere e utilizzare i servizi dati NetApp .  In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia.  Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
 
-Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e i costi saranno addebitati solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp .  Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
+Non hai bisogno di una licenza o di un abbonamento per iniziare a utilizzare NetApp Console e sostieni costi solo quando devi distribuire gli agenti di Console nel cloud per garantire la connettività ai tuoi sistemi storage o ai servizi dati NetApp. Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono soggetti a licenza o abbonamento.
 
 Scopri di più su https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 
+[[what-you-can-do-with-ontap-alerts]]
 == Cosa puoi fare con gli avvisi ONTAP
 
 Visualizza gli avvisi ONTAP per rimanere informato sui rischi o sui potenziali rischi nel tuo sistema di archiviazione ONTAP . Puoi visualizzare alcuni avvisi non EMS e alcuni avvisi EMS.  Puoi visualizzare informazioni su queste gravità e aree di impatto:
@@ -43,6 +45,7 @@ TIP: L'opzione Notifiche in alto a destra dell'interfaccia utente NetApp Console
 
 
 
+[[benefits-of-monitoring-ontap-alerts]]
 == Vantaggi del monitoraggio degli avvisi ONTAP
 
 Il monitoraggio degli avvisi ONTAP offre i seguenti vantaggi:
@@ -54,12 +57,14 @@ Il monitoraggio degli avvisi ONTAP offre i seguenti vantaggi:
 
 
 
+[[cost]]
 == Costo
 
 È possibile visualizzare gli avvisi ONTAP con una licenza NetApp ONTAP .
 
 
 
+[[licensing]]
 == Licenza
 
 Per visualizzare gli avvisi ONTAP è necessaria una licenza NetApp ONTAP 9.10 o successiva.
@@ -70,6 +75,7 @@ Gli avvisi ONTAP possono essere visualizzati solo nella modalità standard (pubb
 
 
 
+[[how-ontap-alerts-work]]
 == Come funzionano gli avvisi ONTAP
 
 Gli avvisi ONTAP sono un componente fondamentale di NetApp Console.  Gli avvisi ONTAP monitorano i cluster ONTAP e ricevono dati di avviso da ONTAP.
@@ -78,6 +84,7 @@ Gli avvisi ONTAP sono disponibili solo nell'ambiente SaaS NetApp Console .  Non 
 
 
 
+[[supported-systems-and-data-sources]]
 == Sistemi supportati e fonti di dati
 
 Utilizzare gli avvisi ONTAP per verificare i problemi nei seguenti sistemi e fonti di dati.

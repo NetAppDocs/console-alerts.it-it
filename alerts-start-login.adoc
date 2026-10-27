@@ -4,7 +4,7 @@ permalink: alerts-start-login.html
 keywords: NetApp Console login, log in, ontap, netapp 
 summary: Per iniziare a utilizzare gli avvisi ONTAP , accedi agli avvisi ONTAP nella NetApp Console. 
 ---
-= Accedi agli avvisi ONTAP
+= Accedi agli avvisi di ONTAP nella NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

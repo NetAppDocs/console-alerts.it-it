@@ -16,6 +16,7 @@ Questa sezione FAQ può aiutarti se stai cercando una risposta rapida a una doma
 
 
 
+[[access-to-netapp-alerts]]
 == Accesso agli avvisi NetApp
 
 *Qual è l'URL degli avvisi NetApp ?*  Per l'URL, in un browser, inserisci: https://console.netapp.com/["https://console.netapp.com/"^] per accedere alla NetApp Console.
@@ -40,6 +41,7 @@ Gli avvisi vengono mostrati agli utenti registrati in base al loro accesso alle 
 
 
 
+[[view-alerts]]
 == Visualizza avvisi
 
 **Quanto tempo devo aspettare prima di iniziare a ricevere gli avvisi?**
@@ -58,6 +60,7 @@ Per visualizzare tutti gli avvisi, seleziona il filtro della colonna Stato e sel
 
 
 
+[[display-of-information]]
 == Visualizzazione delle informazioni
 
 **Qual è la risoluzione migliore per il tuo dispositivo?**  La risoluzione del dispositivo consigliata per gli avvisi NetApp è 1920x1080 o superiore.
